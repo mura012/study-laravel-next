@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Facade;
 
 return [
+    /* 
+    env関数 
+    第一引数はenvファイルの読み込み
+    第二引数はenvファイルに変数がなかったときの初期値
+    */
     'frontend_url' => env('FRONTEND_URL', 'http://localhost'),
     /*
     |--------------------------------------------------------------------------
